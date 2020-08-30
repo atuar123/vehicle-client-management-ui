@@ -1,0 +1,21 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card-header card-header-danger">
+                    <h4 class="card-title">Update Email Domain</h4>
+                </div>
+                <div [hidden]="submitted" class="card-body">
+                    <form (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <label for="domainName">Domain Name</label>
+                            <input type="text" class="form-control" id="domainName" required
+                                   [(ngModel)]="emailDomain.domainName" name="domainName">
+                        </div>
+                        <button type="submit" class="btn btn-success">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
