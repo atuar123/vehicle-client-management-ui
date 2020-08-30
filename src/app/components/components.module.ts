@@ -9,6 +9,8 @@ import { CreateComponent } from './email-domain/create/create.component';
 import { ListComponent } from './email-domain/list/list.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule} from '@angular/forms';
+import { UpdateComponent } from './email-domain/update/update.component';
+import { DetailsComponent } from './email-domain/details/details.component';
 
 @NgModule({
     imports: [
@@ -22,7 +24,9 @@ import {FormsModule} from '@angular/forms';
     NavbarComponent,
     SidebarComponent,
     CreateComponent,
-    ListComponent
+    ListComponent,
+    UpdateComponent,
+    DetailsComponent
   ],
   exports: [
     FooterComponent,

@@ -41,7 +41,6 @@ import {HttpClientModule} from '@angular/common/http';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
